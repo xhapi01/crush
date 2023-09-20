@@ -1,0 +1,83 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> Hapi^^✨💗 </title>
+   <script type="text">
+   alert("")
+   alert("")
+   alert("")
+   alert("")
+   </script>
+   <style>
+body{
+   background-image:url(/storage/emulated/0/Pictures/Messenger/received_1075171353463902.jpeg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+.content{
+    background: /storage/emulated/0/Pictures/Messenger/received_1075171353463902.jpeg;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    }
+</style>
+<body>
+   <div id="code">
+   <span id="line1">PLEASE WAIT:</span>
+   <span id="line2"> </span>
+   </div>
+   <script>
+   var line2 = document.getElementById("line2");
+   var i = 0;
+   var txt = "HI MISS HAHAHA.";
+   var speed = 50;
+
+  function typeWriter() {
+   if (i < txt.length) {
+     line2.innerHTML += txt.charAt(i);
+   i++;
+setTimeout(typeWriter, speed);
+}
+}
+
+setTimeout(typeWriter, 2000);
+</script>
+</body>
+   <!-- The video -->
+   <video width="320" height="240" controls>
+   <source src="/storage/emulated/0/DCIM/Camera/VID_20230908193515.mp4" type="video/mp4">
+   </video>
+   
+   <style>
+   /* Set display to none for image*/
+   #image {
+   display: none;
+   }
+   </style>
+
+    <div>
+    <h1>Hii missHAHAHA</h1>
+    <h3>Click mo tingnan mo,may makikitang magandaHAHA</h3>
+    <!-- Add id to image -->
+    <img id="image"
+    src="
+   /storage/emulated/0/DCIM/Facebook/FB_IMG_HALI.jpg" 
+    alt="" width="400" 
+    heigth="500"/>
+    </div>            
+    <button type="button" onclick="show()" id="btnID">
+    Show Image
+    </button>
+    
+    <script>
+    function show() {
+    /* Access image by id and change
+    the display property to block*/
+    document.getElementById('image')
+    .style.display = "block";
+    document.getElementById('btnID')
+    .style.display = "none";
+    }
+    </script>  
+   </body>
+   </html>
